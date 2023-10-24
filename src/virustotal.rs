@@ -140,7 +140,7 @@ impl VirusTotal {
                 false => {
                     print!(
                         "{}",
-                        "not detected".if_supports_color(Stdout, |text| text.red())
+                        "not detected".if_supports_color(Stdout, |text| text.green())
                     )
                 }
             };
